@@ -1,0 +1,51 @@
+# General
+.DS_Store
+node_modules/
+dist/
+build/
+.env
+.env.local
+*.log
+yarn-error.log
+npm-debug.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+*.env
+*.venv
+
+# TypeScript/React
+ui/node_modules/
+ui/.next/
+ui/.vercel/
+ui/.turbo/
+ui/.eslintcache
+ui/.parcel-cache
+ui/coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+**/node_modules/
+**/venv/
+**/.venv/
+
+# VSCode settings
+.vscode/
+.idea/
+*.swp
+
+# # Ignore PDFs (if needed)
+# pdf/
